@@ -1,0 +1,18 @@
+{
+  "name": "atlanta-311-data",
+  "version": "1.0.0",
+  "description": "module for parsing and filtering atlanta 311 data",
+  "main": "start.js",
+  "scripts": {
+    "start": "node start.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "unpack": "tar xzvf 311-data.tar.gz"
+  },
+  "author": "Brian Murphy",
+  "license": "MIT",
+  "dependencies": {
+    "fast-csv": "^1.1.0",
+    "geocoder": "^0.2.2",
+    "sleep": "^3.0.1"
+  }
+}
